@@ -1,7 +1,7 @@
-const add = require('./add').add;
 const css = require('./test.css');
-
 const gif = require('./niko.png');
+
+import {add} from './add';
 
 let [myGif,fucker] = [new Image(),new Image()];
  myGif.src = gif;
